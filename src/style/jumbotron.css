@@ -1,0 +1,18 @@
+.jumbotron {
+  text-align: center;
+  color: #ffffff;
+  background: steelblue;
+  padding: 8em 0 8em;
+  border-top: 1px solid #407293;
+  margin-top: 2em;
+}
+
+.jumbo-title {
+  font-size: 5em;
+  font-weight: 500;
+}
+
+.jumbo-p {
+  font-size: 2.3em;
+  font-weight: 300;
+}

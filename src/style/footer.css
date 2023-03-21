@@ -1,0 +1,6 @@
+footer h3{
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
