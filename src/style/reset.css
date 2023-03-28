@@ -5,6 +5,11 @@
     font-family: 'Archivo';
 }
 
+body {
+    overflow-x: hidden;
+}
+
+
 footer {
     margin: 0;
     padding: 0
