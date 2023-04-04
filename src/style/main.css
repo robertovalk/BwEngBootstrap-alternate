@@ -1,10 +1,13 @@
 
-.faq {
-    background-color: var(--bege);
-}
-
-
 .home-bg {
  background-color: steelblue;   
  color: var(--branco);
+}
+
+.header-icon {
+    text-align: center;
+}
+
+.faq {
+    background-color: var(--bege);
 }
