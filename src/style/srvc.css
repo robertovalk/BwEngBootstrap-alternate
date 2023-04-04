@@ -1,10 +1,10 @@
-.srvc {
+.slcs {
   color:var(--carvao);
   background-color: var(--bege);
 }
 
 
-.srvc-mobile {
+.slcs-mobile {
   background-color: white;
   padding: 2em 0;
   margin-bottom: 3em;
@@ -13,18 +13,16 @@
 .servicos-title {
   text-align: center;
   padding-bottom: 1.9em;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
-.header-icon {
-  text-align: center;
-}
 
-
-.srvc-padrao.first {
+.slcs-padrao.first {
   background: linear-gradient(-45deg, #FFF2CC , transparent);
 }
 
-.srvc-padrao.middle {
+.slcs-padrao.middle {
   text-align: center;
   background: linear-gradient(45deg, #FFF2CC, transparent);
 }
@@ -33,14 +31,14 @@
   color: var(--carvao);
 }
 
-.srvc-info {
+.slcs-info {
   margin: 2em 0 0px;
-  padding: 0 2em 2em;
+  padding: 0 1em 2em;
   font-size: 20px;
   text-align: center;
 }
 
-.srvc-icon {
+.slcs-icon {
   display: flex;
   gap: 0.5em;
   align-items: baseline;
@@ -50,23 +48,23 @@
 
 }
 
-.srvc-icon h3 {
+.slcs-icon h3 {
   font-weight: bold;
 }
 
-.srvc-dsktp {
+.slcs-dsktp {
   display: none;
   background-color: white;
 }
 
-.srvc-img {
+.slcs-img {
   width: 100%;
   box-shadow: 3px 2px 6px;
   opacity: 1;
-  transition: all 8ms;
+  transition: all .8s;
 }
 
-.srvc-img:hover {
+.slcs-img:hover {
   opacity: .7;
 }
 
@@ -74,32 +72,32 @@
 
 
 @media screen and (min-width: 768px) {
-  .srvc-mobile {
+  .slcs-mobile {
     display: none;
   }
 
-  .srvc-dsktp {
+  .slcs-dsktp {
     display: block;
   }
 
-  .srvc {
+  .slcs {
     background-color: var(--bege);
   }
   
-  .srvc-padrao {
+  .slcs-padrao {
     display: grid;
     grid-template-columns: 50% 50%;
-    padding: 5em;
+    padding: 1em 3em;
     gap: 2em;
     align-items: center;
   }
 
   
-  .srvc-img {
+  .slcs-img {
     border-radius: 3em;
   }
   
-  .srvc-icon {
+  .slcs-icon {
     display: flex;
     gap: 0.5em;
     align-items: baseline;
@@ -118,18 +116,8 @@
 @media screen and (min-width: 1024px) {
   
   .header-icon p {
-    font-size: 25px;
+    font-size: 24px;
   }
 
-
-  .srvc-img {
-    transition: all 0.8s;
-    cursor: pointer;
-  
-  }
-  
-  .srvc-img:hover {
-    transform: scale(1.1);
-  }
 
 }
