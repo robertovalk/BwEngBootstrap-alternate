@@ -62,7 +62,6 @@
     font-size: 4em;
     font-weight: 700;
     text-transform: uppercase;
-    text-shadow: 0em 4em 0em black;
   }
 
   .about-img-dsktp {
@@ -71,15 +70,15 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .about-wrapper-dsktp {
+  .about-main-dsktp {
     display: grid;
-    grid-template-columns: 25% 45% 38%;
+    grid-template-columns: 50% 50%;
   }
+  
+  .about-wrapper-dsktp {
+    display: flex;
+    flex-direction: column;
 
-  .about-wrapper-dsktp h2{
-    font-size: 4em;
-    font-weight: 700;
-    text-transform: uppercase;
   }
 
   .about-title-dsktp {
