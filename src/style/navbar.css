@@ -9,5 +9,21 @@
 }
 
 .text-hero {
-    padding: 5em 0;
+    padding: 2em 0;
+}
+
+.ni-dsktp {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .ni-mobile {
+        display: none;
+    }
+    
+    .ni-dsktp {
+        display: block;
+    }
+
+    
 }
