@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: baseline;
   justify-content: center;
-
+  text-align: justify;
 }
 
 .about-title {
@@ -34,6 +34,7 @@
 
 .about-dsktp {
   display: none;
+  text-align: justify;
 }
 
 @media screen and (min-width: 768px) {
@@ -43,6 +44,7 @@
 
   .about{
     display: none;
+    text-align: justify;
   }
   
   .about-wrapper-dsktp {
@@ -53,15 +55,17 @@
     display: flex;
     align-items: baseline;
     justify-content: center;
-    background-color: gold;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(249,232,51,1) 0%, rgba(250,196,59,1) 100.2% );
     color: black;
     padding: 8em 1em;
+    text-align: justify;
   }
 
   .about-wrapper-dsktp h2{
     font-size: 4em;
     font-weight: 700;
     text-transform: uppercase;
+    text-align: justify;
   }
 
   .about-img-dsktp {
@@ -87,7 +91,7 @@
     justify-content: center;
     background-color: gold;
     color: black;
-
+    text-align: justify;
   }
 
   .about-objetivos-dsktp {
