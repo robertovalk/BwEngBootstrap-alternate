@@ -1,0 +1,15 @@
+.srvc-dsktp {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .srvc-mobile {
+        display: none;
+    }
+    
+    .srvc-dsktp {
+        display: block;
+    }
+
+
+}
