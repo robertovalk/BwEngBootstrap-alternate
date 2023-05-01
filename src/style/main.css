@@ -1,7 +1,6 @@
-
 .home-bg {
- background-color: steelblue;   
- color: var(--branco);
+ background-color: #F1F6F9;
+ color: var(--carvao);
 }
 
 .header-icon {
